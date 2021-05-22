@@ -3,7 +3,6 @@ export default function People({ setPage }) {
     <nav>
       <button onClick={() => setPage("planets")}>planets</button>
       <button onClick={() => setPage("People")}>People</button>
-      <p>body</p>
     </nav>
   )
 }
